@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet"> 
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="score-board">
+            <div id="player-score">Player Score:0</div>
+            <div id="computer-score">Computer Score:0</div>
+        </div>
+        <div id="game">
+            <div class="choices">
+                <br>
+                <button class="btn" onclick="play('rock')"><img src="https://th.bing.com/th/id/OIP.Eq4i13pOJGp_UpidyUR49wHaE7?rs=1&pid=ImgDetMain" height="150px" width="250px"></button>
+                <button class="btn" onclick="play('paper')"><img src="https://seekicon.com/free-icon-download/hand_4.png" height="150px" width="250px"></button>
+                <button class="btn" onclick="play('scissors')"><img src="https://th.bing.com/th/id/OIP.4UpAKv513ApiC2fj_Ut14QHaGs?rs=1&pid=ImgDetMain" height="150px" width="250px"></button>
+            </div>
+            <div id="result"></div>
+            <button class="btn" id="new-game" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+    
+<script src="script.js"> </script>
+</body>
+</html>

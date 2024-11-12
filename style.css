@@ -1,0 +1,40 @@
+body{
+    background-color:gray;
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+}
+#player-score{
+    color:red; font-size: 40px;
+}
+#computer-score{
+    color:blue;  font-size: 40px;
+}
+#yellow{
+    color:yellow;
+}
+p{
+    font-size: 30px;
+}
+#game{
+width: auto;
+height: 300px;
+font-size: 40px;
+background-color: rgb(113, 4, 4);
+color:rgb(219, 234, 16);
+border-radius: 30px;
+box-shadow: 4px 4px black ;
+display: inline-block;
+}
+.ki{
+    border:4px solid black;
+    box-shadow: 4px 4px black;
+    background-color: white;
+}
+#new-game{
+    width: 270px;
+    height: 70px;
+    background-color:darkcyan;
+    color:white;
+}
